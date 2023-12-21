@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".cenz-image").on("click",function(){$(".cenz-image").addClass("cenz-show")});$("a[href='#']").on("click",function(a){$([document.documentElement,document.body]).animate({scrollTop:$(".form").offset().top},500)})});
